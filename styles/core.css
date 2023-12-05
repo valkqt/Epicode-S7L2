@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(252, 179, 255);
+}
+
+* {
+  font-family: "Caveat", cursive;
+  font-size: 1.2rem;
+}
+
+input,
+label {
+  display: block;
+  padding: 0.5rem;
+}
+
+form {
+  width: 33%;
+  background-color: pink;
+  margin: 0 auto;
+  padding: 1rem;
+  color: rgb(53, 0, 9);
+  display: flex;
+  flex-direction: column;
+  box-shadow: 6px 6px 12px rgba(24, 24, 24, 0.534);
+  border: 3px dashed rgb(53, 0, 9);
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  border: 2px solid rgb(53, 0, 9);
+  padding: 0.5rem;
+  border-radius: 100%;
+  box-sizing: border-box;
+  margin: 0.33rem;
+}
+
+span {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 2rem;
+  gap: 1rem;
+}
+
+[type="submit"],
+[type="button"] {
+  background-color: rgb(255, 161, 177);
+}
+
+#audio {
+    margin: 0 auto;
+    width: 33%;
+    text-align: center;
+    margin-top: 1rem;
+}

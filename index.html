@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browser Storage Practice</title>
+    <script src="scripts/index.js" defer></script>
+    <link rel="stylesheet" href="styles/core.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <form>
+        <div class="label">
+          <label for="username">Username</label>
+          <p><span id="counter">0</span></p>
+        </div>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Write in your username"
+        />
+        <input type="text" disabled value="" />
+        <div class="settings">
+          <input type="submit" value="Save settings" />
+          <input type="button" value="Cancel settings" />
+        </div>
+      </form>
+      <div id="audio">
+        <audio controls autoplay muted>
+          <source src="audio/wavedash.ppt.mp3" type="audio/mpeg" />
+        </audio>
+      </div>
+    </main>
+  </body>
+</html>
