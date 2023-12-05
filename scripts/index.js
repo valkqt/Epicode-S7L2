@@ -28,6 +28,10 @@ function activateButtons() {
     global.form.addEventListener('submit', (event) => {
 
         event.preventDefault()
+
+        if (global.inputField.value === "") {
+            return
+        }
     
         window.localStorage.setItem('username', global.inputField.value)
         global.resultBox.value = global.inputField.value
